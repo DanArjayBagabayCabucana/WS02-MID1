@@ -8,6 +8,10 @@ header{
     padding: 100px;
 }
 
+a{
+  text-decoration:none;
+  color:white;
+}
 h1{
     font-size: 90px;
     color:white;
@@ -147,16 +151,13 @@ ul{
     margin: 0;
 }
 
-a{
-    color: #204573;
-    text-decoration: none;
-}
-
 footer{
     margin-top: -8px;
     padding: 40px 20px;
     background-color: #1D00D2;
     color: aliceblue;
+    font-family: 'New Super Mario Font U', sans-serif;
+    text-align: center;
 }
 
 footer ul{
@@ -166,6 +167,10 @@ footer ul{
 footer ul li{
     display: inline-block;
     margin: 0 5px;
+}
+.href{
+  color: aliceblue;
+  text-align: center;
 }
 
 .friends {
@@ -317,6 +322,7 @@ footer ul li{
       padding: 40px 20px;
       background-color: #1D00D2;
       color: aliceblue;
+
   }
   }
 
