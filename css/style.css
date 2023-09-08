@@ -3,7 +3,7 @@ html, body{
 }
 
 header{
-    background-color: #C60000;
+    background-color: #1D00D2;
     height: 300px;
     padding: 100px;
 }
@@ -44,8 +44,8 @@ header img{
 }
 
 .character-details {
-    flex: 1;
-    padding: 2rem;
+    flex: 1000;
+    padding: 0rem;
 }
 
 .character-heading {
@@ -55,17 +55,19 @@ header img{
 }
 
 .character-description {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: justify;
-    margin-bottom: 1.5rem;
-    font-family: Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 1.4rem;
+    font-family: 'New Super Mario Font U', sans-serif;
+                                                
 }
 
 .characteristics-list {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     list-style-type: disc;
     padding-left: 20px;
-    font-family: Arial, sans-serif;
+    font-family: 'New Super Mario Font U', sans-serif;
 }
 
 .center{
@@ -75,10 +77,49 @@ header img{
     left: 0 ;
     right: 0;
     top: 400px;
+    height: 50px;
+    width: 300px;
+}
+
+.images{
+    width: 190px; 
+    height: 70px;
+}
+
+.images1{
+  width: 190px; 
+  height: 70px;
+}
+
+.images2{
+  width: 340px; 
+  height: 70px;
+}
+
+.images3{
+  width: 240px; 
+  height: 50px;
+  padding-bottom: 20px;
+}
+
+.gif{
+  height: 50px;
+  width: 50px;
+}
+.pt-1{
+  font-family: 'Homoarakhn', sans-serif;
+}
+.pt-2{
+  font-family: 'SpongeBob Font Condensed', sans-serif;
+  font-family: 'SpongeBob Font Wide', sans-serif;
+
+}
+.pt-3{
+  font-family: 'Black Clover Font', sans-serif;
 }
 
 .content{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
 
@@ -101,7 +142,7 @@ p.caption{
 }
 
 ul{
-    list-style: none;
+    list-style-image: url('../images/block.gif');
     padding: 0;
     margin: 0;
 }
@@ -112,9 +153,9 @@ a{
 }
 
 footer{
-    margin-top: 20px;
+    margin-top: -8px;
     padding: 40px 20px;
-    background-color: #C60000;
+    background-color: #1D00D2;
     color: aliceblue;
 }
 
@@ -148,8 +189,8 @@ footer ul li{
     margin: 0 !important;
     border-radius: 20px;
     overflow: hidden;
-    min-width: 230px;
-    max-width: 280px;
+    min-width: 130px;
+    max-width: 220px;
     max-height: 340px;
     cursor: pointer;
     border: none;
@@ -240,18 +281,46 @@ footer ul li{
     font-size: 1.3rem;
   }
   
-  @media only screen and (max-width: 800px) {
-    .friends .row {
+  @media only screen and (max-width: 1000px) {
+    .images{
+      width: 90px;
+      height: 30px;
+    }
+    .images1{
+      width: 90px;
+      height: 30px;
+    }
+    .images2{
+      width: 190px;
+      height: 30px;
+    }
+    .images3 {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      margin: 0 auto;
+      left: 0 ;
+      right: 0;
     }
-    .friends a {
-      margin-top: 20px;
+    .gif{
+      display: flex;
     }
+    .character-image {
+      width: 100px;
+      height: 300px;
+  }
+    ul {
+      list-style-image: url('../images/blocks.gif');
+      padding: 0;
+      margin: 0;
+    }
+    footer{
+      margin-top: -5px;
+      padding: 40px 20px;
+      background-color: #1D00D2;
+      color: aliceblue;
+  }
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 1200px) {
     .header {
         padding: 5rem 0;
         width: 100%;
@@ -296,4 +365,99 @@ footer ul li{
     .image-section {
         padding: 0.5rem 0;
     }
+    .gif{
+      display: flex;
+    }
+    .character-image {
+      width: 200px;
+      height: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .header {
+      padding: 5rem 0;
+      width: 100%;
+  }
+  
+  .header-image {
+      width: 145px;
+      border: 5px solid black;
+  }
+
+  .header-title {
+      font-size: 2rem;
+  }
+
+  .character-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 5%;
+  }
+
+  .character-image {
+      width: 100px;
+      height: 300px;
+  }
+
+  .character-details {
+      padding: 1rem;
+  }
+
+  .character-heading {
+      font-size: 1.5rem;
+  }
+
+  .character-description {
+      font-size: 1rem;
+  }
+
+  .characteristics-list {
+      font-size: 1rem;
+  }
+
+  .image-section {
+      padding: 0.5rem 0;
+  }
+  .head{
+    height: 200px;
+    width: 200px;
+  }
+  .center{
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    left: 0 ;
+    right: 0;
+    top: 350px;
+    height: 50px;
+    width: 200px;
+}
+.gif{
+  display: flex;
+}
+.images3 {
+  display: flex;
+  margin: 0 auto;
+  left: 0 ;
+  right: 0;
+  height: 30px;
+    width: 200px;
+}
+}
+
+@media (max-width: 700px) {
+  .friends .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .friends a {
+    margin-top: 20px;
+  }
+  .character-image {
+    width: 100px; 
+    height: 200px;
+}
+
 }
