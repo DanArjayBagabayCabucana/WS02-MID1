@@ -12,10 +12,6 @@ a{
   text-decoration:none;
   color:white;
 }
-h1{
-    font-size: 90px;
-    color:white;
-}
 
 header img{
     border-radius: 200px;
@@ -44,7 +40,7 @@ header img{
 
 .character-image {
     width: 200px; 
-    height: 500px;
+    height: 400px;
 }
 
 .character-details {
@@ -59,8 +55,9 @@ header img{
 }
 
 .character-description {
+    text-indent: 50px;
     font-size: 1.5rem;
-    text-align: justify;
+    text-align:justify;
     margin-top: 0px;
     margin-bottom: 1.4rem;
     font-family: 'New Super Mario Font U', sans-serif;
@@ -69,6 +66,7 @@ header img{
 
 .characteristics-list {
     font-size: 1.5rem;
+    text-indent: 5px;
     list-style-type: disc;
     padding-left: 20px;
     font-family: 'New Super Mario Font U', sans-serif;
@@ -81,45 +79,44 @@ header img{
     left: 0 ;
     right: 0;
     top: 400px;
-    height: 50px;
+    height: 48px;
     width: 300px;
 }
 
 .images{
-    width: 190px; 
-    height: 70px;
+    width: 150px; 
+    height: 48px;
 }
 
 .images1{
   width: 190px; 
-  height: 70px;
+  height: 48px;
 }
 
 .images2{
   width: 340px; 
-  height: 70px;
+  height: 48px;
 }
 
 .images3{
   width: 240px; 
-  height: 50px;
+  height: 48px;
   padding-bottom: 20px;
 }
 
 .gif{
-  height: 50px;
-  width: 50px;
+  height: 48px;
+  width: 48px;
 }
 .pt-1{
-  font-family: 'Homoarakhn', sans-serif;
+  font-family: 'New Super Mario Font U', sans-serif;
 }
 .pt-2{
-  font-family: 'SpongeBob Font Condensed', sans-serif;
-  font-family: 'SpongeBob Font Wide', sans-serif;
+  font-family: 'New Super Mario Font U', sans-serif;
 
 }
 .pt-3{
-  font-family: 'Black Clover Font', sans-serif;
+  font-family: 'New Super Mario Font U', sans-serif;
 }
 
 .content{
@@ -143,6 +140,7 @@ p.caption{
     color: rgb(169, 169, 169);
     font-style: italic;
     text-align: center;
+    font-family: 'New Super Mario Font U', sans-serif;
 }
 
 ul{
@@ -327,11 +325,6 @@ footer ul li{
   }
 
   @media (max-width: 1200px) {
-    .header {
-        padding: 5rem 0;
-        width: 100%;
-    }
-    
     .header-image {
         width: 145px;
         border: 5px solid black;
@@ -348,12 +341,8 @@ footer ul li{
     }
 
     .character-image {
-        width: 300px;
-        height: 300px;
-    }
-
-    .character-details {
-        padding: 1rem;
+        width: 100px;
+        height: 200px;
     }
 
     .character-heading {
@@ -368,16 +357,6 @@ footer ul li{
         font-size: 1rem;
     }
 
-    .image-section {
-        padding: 0.5rem 0;
-    }
-    .gif{
-      display: flex;
-    }
-    .character-image {
-      width: 200px;
-      height: 300px;
-  }
 }
 
 @media (max-width: 300px) {
